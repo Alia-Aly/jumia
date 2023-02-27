@@ -1,0 +1,76 @@
+@media (min-width:200px) and (max-width:1200px){
+    .head{
+        height: auto;
+    }
+    .head-img{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .first{
+        display: none;
+    }
+    .second{
+        flex-wrap: wrap;
+    }
+    .logo{
+        width: 90%;
+    }
+    .logo-img{
+        width: 25px;
+    }
+    .logo-world{
+        font-size: 25px;
+    }
+    .links{
+        display: none;
+    }
+    .search{
+        width: 95%;
+        margin:20px auto 0px;
+    }
+    .left{
+        display: none;
+    }
+    .center::after, .center::before,.after ,.before{
+        display: none;
+    }
+    .center{
+        width: 70%;
+        height: 200px;
+    }
+    .right{
+        width: 20%;
+    }
+    .after-two,.after-two::after,.before-two,.before-two::after{
+        display: none;
+    }
+    .fourth{
+        width: 95%;
+        margin: auto;
+        padding: 5px;
+    }
+    .imgs{
+        width: calc(90% / 8);
+    }
+    .sells{
+        width: calc(( 100% - 40px ) / 3);
+    }
+    .fifth h2{
+        line-height: 20px;
+    }
+    .set{
+        width: calc(( 100% - 100px ) /3);
+    }
+    .imgs10{
+        height: auto;
+    }
+    .footer-con{
+        flex-wrap: wrap;
+    }
+    .download{
+        display: none;
+    }
+    .d-one{
+        width: 50%;
+    }
+}
